@@ -1,7 +1,7 @@
 (defmodule shop1
   (export (total 1)))
 
-;; > (c "shop" "shop1")
+;; > (c "shop1")
 ;; > (shop1:total '())
 ;; 0
 ;; > (shop1:total '(#(milk 3)))
